@@ -12,5 +12,5 @@ This repository perform face recognition for the dataset provided .
 
 ## How to run the code ?
 1. `pip install -r requirements_pip.txt`
-2. `Add images in the Images folder and follow the pattern "Name.jpg"
+2. Add images in the Images folder and follow the pattern "Name.jpg"
 3. `python run.py`
