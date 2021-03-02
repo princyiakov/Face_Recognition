@@ -29,7 +29,6 @@ def main():
 
             if matches[idx]:
                 name = kwn_names[idx].upper()
-                print(name)
                 top, right, bottom, left = face_loc
                 top, right, bottom, left = top*4, right*4, bottom*4, left*4
                 cv2.rectangle(img, (left, top ),(right, bottom), (0,255,2), 2)
